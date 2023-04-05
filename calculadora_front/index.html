@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="calculadora_front.css">
+
+</head>
+<body>
+    <h2>Calculadora</h2>
+    <form>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="num1">Ingrese su primer digito</label>
+                <input class="form-control" id="num1" name="num1" type="number" required placeholder="Ingrese un número">
+                <label for="num2">Ingrese su segundo digito</label>
+                <input class="form-control" id="num2" name="num2" type="number" required required placeholder="Ingrese un número">
+            </div>
+            
+           
+        </div>
+
+        <div class="button-container">
+            <button id="suma">Sumar</button>
+            <button id="resta">Restar</button>
+            <button id="multiplicar">Multiplicar</button>
+            <button id="dividir">Dividir</button>
+        </div>
+        <input class="form-control" id="resultado" name="resultado" type="number" >
+    </form> 
+
+    <script src="calculadora_front.js"></script>
+
+</body>
+</html>
